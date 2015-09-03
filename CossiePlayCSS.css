@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu {
+	width: 50em;
+	height: 6em
+	font-size: 16px;
+	text-align: center;
+	background-color: #000000;
+	border-radius: 8px;
+	border: medium solid #F3776F;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#menu li { 
+display: inline; 
+padding: 15px; 
+}
+
+
+#menu ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+#menu a {
+    text-decoration: none;
+    color: #00F;
+    padding: 8px 8px 8px 8px;
+}
+
+#menu a:hover {
+    color: #F90;
+    background-color: #FFF;
+}
+
+#box	{
+	background-color: #000000;
+	border: thick solid #68E185;
+	border-radius: 8px;
+	padding-left: 10px;
+	display: inline-block;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+body {
+	text-align: centre;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+image {
+	position: relative;
+	width: 100%;
+	border: medium solid #FF8F43;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+h1	{
+	position: absolute;
+	top: 15px;
+	left: 8em;
+	width: 100%;
+	magin:0 auto;
+	}
+h1 span	{
+	colour:white;
+	background: rgb(0,0,0);
+	background:rgba(0,0,0,0.7);
+	padding:10px;
+	
+}
+
+'footer {
+'	border-style: solid;
+'	border-color: #EC417B;
+'	border-radius: 8px;
+'	padding-left: 10px;
+'	padding-bottom: 5px;
+'	padding-right: 10px;
+'	padding-top: 5px;
+'	margin-top: 10px;
+'}
+
+*{
+		margin:0;
+			padding:0;
+}
+
+#centre {
+		width: 900px;
+		margin: 0 auto;
+		text-align: left;
